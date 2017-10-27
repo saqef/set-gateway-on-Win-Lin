@@ -1,5 +1,5 @@
 //QList<QNetworkInterface> ls=QNetworkInterface::allInterfaces();
-//prop[i]-address
+//prop[i]-address (QString) 
 
 #ifdef Q_OS_WIN
 
