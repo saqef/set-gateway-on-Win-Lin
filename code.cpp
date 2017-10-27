@@ -11,8 +11,6 @@
                 CoUninitialize();
                 //OleInitialize(NULL);
                 hres = CoInitializeEx(0, COINIT_MULTITHREADED);
-               /* QString error;
-                error.setNum(hres,16);*/
                 if (FAILED(hres))
                 {
                     return answer=("Failed to initialize COM library. Error code = 0x"+QString::number(hres));
